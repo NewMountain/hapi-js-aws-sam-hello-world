@@ -129,7 +129,7 @@ The SAM CLI reads the application template to determine the API's routes and the
           Properties:
             # As recommended in Hapi documentation, run API Gateway as passthrough
             # This basically passes any request back to hapi
-            Path: "/hapi/{proxy+}"
+            Path: "/{proxy+}"
             Method: ANY
 ```
 
